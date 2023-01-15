@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* stylee for nav */
+.main{
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 1050px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-title{
+    padding-top: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.nav-item{
+    display: flex;  
+    gap: 50px;
+    padding-top: 63px;
+}
+.nav-item li{
+    list-style: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+/* Brand-New section here */
+.for-brandnew{
+    text-align: center;
+    width: 850px;
+    height: 225px;
+    margin-left: 235px;
+    margin-top: 116px;
+}
+.brandnew-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.brandnew-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 18px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.brandnew-button{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    margin-left:320px;
+    
+    
+}
+.button-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 24px;
+}
+.brandnew-img{
+    width: 100%;
+    margin-bottom: 45px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+   
+}
+/* stylee for features step */
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-left: 101px;
+   
+}
+
+.feature-container{
+    width: 537px;
+    height: 304px;
+    text-align: left;
+    /* margin-left: 80px; */
+    margin-bottom: 332px;
+    margin-top: 280px;
+    margin-right: 80px;
+}
+.brandnew-button1{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+
+}
+.features-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+}
+.feature-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/* love and enjoy section */
+
+.header-description{
+    margin-left: 90px;
+}
+.vl {
+    border-left: 5px solid  #FF900E;
+    height: 106px;
+  }
+.love-enjoy-title{
+    width: 586px;
+    height: 982px; 
+    margin-top: 50px;  
+}
+.love-header{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 11px;
+}
+.love-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272; 
+    padding-left: 20px;
+    padding-right: 30px;
+
+}
+.sub-heder-description{
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.love-enjoy-container{
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 586px;
+    height: 100px;
+}
+.love-title{
+    padding-top: 23px;
+    padding-left: 20px;
+    
+}
+
+.love-button{
+    width: 180px;
+    height: 100px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF; 
+    
+    
+    
+}
+.love-enjoy{
+    display: flex;
+    gap: 144px;
+}
+.love-last{
+    margin-left: 110px;
+    margin-bottom: 444px;
+    margin-top: 207;
+}
+/* last section */
+.card{
+    width: 160px;
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #FF900E;
+    border-radius: 8px; 
+    background-color: white;
+    position: relative;
+    animation-name: card;
+    animation-duration: 4s;
+}
+@keyframes  card {
+    0%   {background-color:lightgreen; left:0px; top:0px;}
+    25%  {background-color:lightsalmon; left:200px; top:0px;}
+    50%  {background-color:lightslategray; left:200px; top:200px;}
+    75%  {background-color:lightpink; left:0px; top:200px;}
+    100% {background-color:lightyellow; left:0px; top:0px;}
+  }
+.last-card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+
+}
+.last-rate{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    color: #424242;
+}
+.last-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #424242;
+}
+.last-container{
+    margin-left: 110px;
+}
+/* extra section */
+.extra-multi-img{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.extra-multi-img img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+
+}
+.extra-single-img{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(233, 228, 228);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 5px rgb(220, 228, 228);
+    
+}
+/* sponsor section */
+.sponsor-logo{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+    margin-bottom: 130px;
+}
+.sub-logo{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.fotter{
+    width: 1000px;
+    height: 80px;
+    border: none;
+    margin-left: 160px;
+    margin-bottom: 216px;
+    background-color: #FFF4E7;
+}
+
+
+
+
